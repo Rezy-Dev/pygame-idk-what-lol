@@ -1,9 +1,7 @@
 import pygame
 
-# initialize pygame
 pygame.init()
 
-# set the screen size
 size = (700, 500)
 screen = pygame.display.set_mode(size)
 
@@ -87,5 +85,4 @@ while not done:
     # update the display
     pygame.display.flip()
 
-# exit pygame
 pygame.quit()
